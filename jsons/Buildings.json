@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Stable",
+        "maintenance": 1,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+20]% Production when constructing [Mounted] units [in this city]",
+            "[+1 Production] from [Cattle] tiles [in this city]",
+            "[+1 Production] from [Horses] tiles [in this city]",
+            "[+1 Production] from [Sheep] tiles [in this city]",
+            "New [Mounted] units start with [10] Experience [in this city]",
+            "Free [Horseman] appears"
+        ],
+        "requiredTech": "Horseback Riding"
+    },
+    {
+        "name": "Barracks",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": [
+            "[+20]% Production when constructing [Sword] units [in this city]",
+            "New [Sword] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Free [Warrior] appears",
+        ],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Archery Range",
+        "hurryCostModifier": 25,
+        "cost": 75,
+        "requiredTech": "Archery",
+        "maintenance": 1,
+        "uniques": [ 
+            "[+20]% Production when constructing [Archery] units [in this city]",
+            "New [Archery] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Free [Archer] appears",
+        ]
+    },
+    {
+        "name": "Siege Workshop",
+        "hurryCostModifier": 25,
+        "cost": 80,
+        "maintenance": 2,
+        "uniques": [
+            "[+20]% Production when constructing [Siege] units [in this city]",
+            "New [Siege] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Free [Catapult] appears",
+        ],
+        "production": 1,
+        "requiredTech": "Mathematics"
+    },
+    {
+        "name": "shipyards",
+        "cost": 60,
+        "maintenance": 2,
+        "requiredTech": "Sailing",
+        "uniques": [
+            "[+20]% Production when constructing [Melee Water] units [in this city]",
+            "[+20]% Production when constructing [Ranged Water] units [in this city]",
+            "New [Melee] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Free [Trireme] appears",
+        ]
+    },
+    {
+        "name": "Armor Factory",
+        "cost": 500,
+        "maintenance": 5,
+        "requiredResource": "Coal",
+        "requiredTech": "Combustion",
+        "uniques": [ 
+            "[+20]% Production when constructing [Armored] units [in this city]",
+            "New [Armored] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured",
+            "Free [Landship] appears",
+        ]
+    },{
+        "name": "Groundwater Operation Center",
+        "cost": 500,
+        "maintenance": 5,
+        "requiredResource": "Coal",
+        "requiredTech": "Refrigeration",
+        "uniques": [
+            "[+20]% Production when constructing [Submarine] units [in this city]",
+            "New [Submarine] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured"
+        ]
+    },{
+        "name": "aircraft production facility",
+        "cost": 500,
+        "maintenance": 5,
+        "requiredResource": "Coal",
+        "requiredTech": "Flight",
+        "uniques": [
+            "[+20]% Production when constructing [Fighter] units [in this city]",
+            "[+20]% Production when constructing [Bomber] units [in this city]",
+            "[+20]% Production when constructing [Helicopter] units [in this city]",
+            "New [Bomber] units start with [10] Experience [in this city]",
+            "Destroyed when the city is captured"
+        ]
+    }
+   
+]
